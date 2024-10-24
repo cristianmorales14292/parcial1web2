@@ -1,0 +1,19 @@
+{
+  "name": "motos-tallerweb2",
+  "version": "1.0.0",
+  "description": "Taller web2 API sobre motos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cristian Erazo",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "express": "^4.21.1",
+    "node": "^20.18.0"
+  }
+}
